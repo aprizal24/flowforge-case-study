@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+:root {
+  --background-primary: #F4F9FF;
+  --gradient-dark: #ADC6E0;
+  --text-primary: #3E4F69;
+  --text-secondary: #5374A9;
+  --text-accent: #5374A9;
+  --text-muted: #98AACD;
+  --border-subtle: rgba(58, 79, 105, 0.08);
+}
+
+@theme inline {
+  --color-background-primary: var(--background-primary);
+  --color-gradient-dark: var(--gradient-dark);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-accent: var(--text-accent);
+  --color-text-muted: var(--text-muted);
+  --color-border-subtle: var(--border-subtle);
+
+  --font-sans: var(--font-inter);
+
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 1.75rem;
+  --spacing-8: 2rem;
+  --spacing-9: 2.25rem;
+  --spacing-10: 2.5rem;
+  --spacing-11: 2.75rem;
+  --spacing-12: 3rem;
+  --spacing-13: 3.25rem;
+  --spacing-14: 3.5rem;
+  --spacing-15: 3.75rem;
+  --spacing-16: 4rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.04);
+  --shadow-md: 0 2px 8px -2px rgb(0 0 0 / 0.06);
+
+  --text-h1: 3.5rem / 1.1 var(--font-inter);
+  --text-h2: 2.5rem / 1.2 var(--font-inter);
+  --text-h3: 2rem / 1.25 var(--font-inter);
+  --text-h4: 1.5rem / 1.3 var(--font-inter);
+  --text-h5: 1.25rem / 1.4 var(--font-inter);
+  --text-body-large: 1.125rem / 1.6 var(--font-inter);
+  --text-body-medium: 1rem / 1.6 var(--font-inter);
+  --text-body-small: 0.875rem / 1.5 var(--font-inter);
+  --text-label-medium: 0.875rem / 1.2 var(--font-inter);
+  --text-label-small: 0.75rem / 1.2 var(--font-inter);
+  --text-caption: 0.75rem / 1.4 var(--font-inter);
+}
+
+html,
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .container-ff {
+    width: 100%;
+    max-width: 90rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-ff {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-ff {
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container-ff {
+      padding-inline: 4rem;
+    }
+  }
+
+  .grid-ff {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    width: 100%;
+    max-width: 90rem;
+    margin-inline: auto;
+  }
+
+  @media (min-width: 640px) {
+    .grid-ff {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .grid-ff {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      column-gap: 1.25rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .grid-ff {
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .grid-ff {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      column-gap: 1.5rem;
+      padding-inline: 4rem;
+    }
+  }
+
+  .flowforge-hero-visual {
+    position: absolute;
+    right: -1.5rem;
+    bottom: 0;
+    z-index: 2;
+    width: min(83%, 63rem);
+  }
+
+  @media (min-width: 640px) {
+    .flowforge-hero-visual {
+      right: -2.5rem;
+      width: min(77%, 68.5rem);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .flowforge-hero-visual {
+      right: -3rem;
+      width: min(74%, 74rem);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .flowforge-hero-visual {
+      right: -3.5rem;
+      width: min(72%, 77.5rem);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .flowforge-hero-visual {
+      right: -4rem;
+      width: 74%;
+      max-width: 83rem;
+    }
+  }
+  .flowforge-inset {
+    position: relative;
+    line-height: 0;
+  }
+
+  .flowforge-inset__text {
+    position: relative;
+    margin: 0;
+  }
+
+  .flowforge-inset__effect {
+    margin: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:
+      radial-gradient(
+        ellipse at 30% 0%,
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0) 55%
+      ),
+      linear-gradient(
+        135deg,
+        rgba(79, 110, 155, 0.18) 0%,
+        rgba(79, 110, 155, 0) 45%,
+        rgba(79, 110, 155, 0.32) 100%
+      );
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 1)),
+      to(rgba(0, 0, 0, 1))
+    );
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  @supports not (background-clip: text) {
+    .flowforge-inset__effect {
+      display: none;
+    }
+  }
+}
