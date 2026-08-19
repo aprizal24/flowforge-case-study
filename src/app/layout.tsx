@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "FlowForge — UI/UX Case Study",
   description:
     "FlowForge is a project management workspace designed to simplify complex workflows through clear interfaces, task management, collaboration, and analytics.",
-  
+  verification: {google: "3zTDXL5u5yLpdWx4En-lxeAKeEXH4WEC-XnmPlcu8R4"},
     alternates: {
   canonical: "/",
 },
