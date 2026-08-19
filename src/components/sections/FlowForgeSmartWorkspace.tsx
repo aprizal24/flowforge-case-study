@@ -131,7 +131,7 @@ export function FlowForgeSmartWorkspace() {
           >
             <Image
               priority={false}
-              src="/images/flowforge/ai-assistant-composite.svg"
+              src="/images/flowforge/ai-assistant-composite.png"
               alt="FlowForge AI Assistant interface with laptop mockup, AI response card on the left, and user message card on the right"
               width={1268}
               height={747}

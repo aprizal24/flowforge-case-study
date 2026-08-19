@@ -294,7 +294,7 @@ export function FlowForgeUIDesign() {
               <UIPresentationFrame>
                 <Image
                   priority={false}
-                  src="/images/flowforge/ui-landing-page.svg"
+                  src="/images/flowforge/ui-landing-page.png"
                   alt="FlowForge Landing Page UI design showing the final visual direction with soft blue accents and clear content hierarchy"
                   width={900}
                   height={1380}
@@ -356,7 +356,7 @@ export function FlowForgeUIDesign() {
               <UIPresentationFrame small>
                 <Image
                   priority={false}
-                  src="/images/flowforge/ui-secondary-showcase.svg"
+                  src="/images/flowforge/ui-secondary-showcase.png"
                   alt="FlowForge product UI showcase showing dashboard, projects, and task management screens in the final visual design"
                   width={700}
                   height={900}
@@ -453,7 +453,7 @@ export function FlowForgeUIDesign() {
             index={0}
             title="Dashboard"
             description="A centralized overview of projects, tasks, team activity, and progress, giving users a clear snapshot of their workspace at a glance."
-            src="/images/flowforge/dashboard.svg"
+            src="/images/flowforge/dashboard.png"
             alt="FlowForge Dashboard interface showing workspace overview, projects, tasks, and team activity analytics"
             naturalW={826}
             naturalH={904}
@@ -468,7 +468,7 @@ export function FlowForgeUIDesign() {
             index={1}
             title="Projects"
             description="A structured project workspace that helps users organize active projects, monitor status, and quickly access important project information."
-            src="/images/flowforge/projects.svg"
+            src="/images/flowforge/projects.png"
             alt="FlowForge Projects interface showing active project list, organization filters, and project status tracking"
             naturalW={1012}
             naturalH={759}
@@ -483,7 +483,7 @@ export function FlowForgeUIDesign() {
             index={2}
             title="Tasks"
             description="A focused task management interface for organizing work, assigning responsibilities, tracking priorities, and monitoring task progress."
-            src="/images/flowforge/tasks.svg"
+            src="/images/flowforge/tasks.png"
             alt="FlowForge Tasks interface showing task list, assignment, priority levels, and progress tracking"
             naturalW={1239}
             naturalH={929}
@@ -498,7 +498,7 @@ export function FlowForgeUIDesign() {
             index={3}
             title="Analytics"
             description="A visual overview of project performance, productivity, task distribution, and team activity to help users identify progress and make better decisions."
-            src="/images/flowforge/analytics.svg"
+            src="/images/flowforge/analytics.png"
             alt="FlowForge Analytics interface showing performance charts, productivity metrics, task distribution, and team activity visuals"
             naturalW={1115}
             naturalH={1482}

@@ -85,7 +85,7 @@ export function FlowForgeHero() {
           >
             <Image
               priority
-              src="/images/flowforge/hero-laptop.svg"
+              src="/images/flowforge/hero-laptop.png"
               alt="FlowForge project interface displayed on a laptop"
               width={1440}
               height={1024}

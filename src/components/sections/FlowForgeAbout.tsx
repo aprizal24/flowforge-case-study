@@ -172,7 +172,7 @@ export function FlowForgeAbout() {
               <div className="relative w-full mx-auto max-w-[1200px] flex items-end justify-center translate-y-6 sm:translate-y-8 lg:translate-y-10">
                 <Image
                   priority={false}
-                  src="/images/flowforge/about-laptop.svg"
+                  src="/images/flowforge/about-laptop.png"
                   alt="FlowForge dashboard workspace displayed on a laptop with a hand interacting with the trackpad"
                   width={1600}
                   height={1100}

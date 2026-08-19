@@ -63,7 +63,7 @@ export function FlowForgePersona() {
             <div className="relative w-full">
               <Image
                 priority={false}
-                src="/images/flowforge/persona.svg"
+                src="/images/flowforge/persona.png"
                 alt="Andrea Rodrigo persona composite including Goals, Needs, and Frustrations insights, connectors, and persona information card over a light grid background"
                 width={1600}
                 height={900}
