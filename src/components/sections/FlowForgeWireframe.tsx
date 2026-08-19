@@ -309,7 +309,7 @@ export function FlowForgeWireframe() {
                   <ScreenGroup
                     kicker="SCREEN 01"
                     title="Dashboard"
-                    src="/images/flowforge/wireframe-dashboard.svg"
+                    src="/images/flowforge/wireframe-dashboard.png"
                     alt="Dashboard wireframe showing overview layout and analytics structure"
                     naturalW={689}
                     naturalH={689}
@@ -338,7 +338,7 @@ export function FlowForgeWireframe() {
                   <ScreenGroup
                     kicker="SCREEN 02"
                     title="Projects"
-                    src="/images/flowforge/wireframe-projects.svg"
+                    src="/images/flowforge/wireframe-projects.png"
                     alt="Projects wireframe showing project list and organization layout"
                     naturalW={659}
                     naturalH={506}
@@ -367,7 +367,7 @@ export function FlowForgeWireframe() {
                   <ScreenGroup
                     kicker="SCREEN 03"
                     title="Task Management"
-                    src="/images/flowforge/wireframe-task-management.svg"
+                    src="/images/flowforge/wireframe-task-management.png"
                     alt="Task Management wireframe showing task assignment and progress layout"
                     naturalW={610}
                     naturalH={483}
