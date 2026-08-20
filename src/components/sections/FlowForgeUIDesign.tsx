@@ -409,7 +409,7 @@ export function FlowForgeUIDesign() {
                   <UIPresentationFrame>
                     <Image
                       priority={false}
-                      src="/images/flowforge/ui-landing-page.svg"
+                      src="/images/flowforge/ui-landing-page.png"
                       alt="FlowForge Landing Page UI design showing the final visual direction with soft blue accents and clear content hierarchy"
                       width={900}
                       height={1380}
